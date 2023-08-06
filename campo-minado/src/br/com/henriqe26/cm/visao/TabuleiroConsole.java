@@ -60,8 +60,10 @@ public class TabuleiroConsole {
 					tabuleiro.marcar(lc.next(), lc.next() );
 				}
 			}
+			System.out.println(tabuleiro);
 			System.out.println("Venceu!");
 		} catch(ExplosaoException e) {
+			System.out.println(tabuleiro);
 			System.out.println("Perdeu!");
 		}
 	}
