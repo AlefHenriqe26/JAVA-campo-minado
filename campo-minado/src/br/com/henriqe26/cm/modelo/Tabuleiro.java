@@ -1,7 +1,6 @@
 package br.com.henriqe26.cm.modelo;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.function.Predicate;
 
