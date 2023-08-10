@@ -82,7 +82,7 @@ public class Tabuleiro {
 		
 		sb.append("  ");
 		int i = 0;
-		for(int c = 0; c < linhas; c++) {
+		for(int c = 0; c < colunas; c++) {
 			sb.append(" ");
 			sb.append(c);
 			sb.append(" ");
@@ -93,7 +93,7 @@ public class Tabuleiro {
 		for(int linha = 0; linha < linhas; linha++) {
 			sb.append(linha);
 			sb.append(" ");
-			for(int coluna = 0; coluna< colunas; coluna++) {
+			for(int coluna = 0; coluna < colunas; coluna++) {
 				sb.append(" ");
 				sb.append(campos.get(i));
 				sb.append(" ");
@@ -101,12 +101,6 @@ public class Tabuleiro {
 			}
 			sb.append("\n");
 		}
-		
 		return sb.toString();
 	}
-
-
-
-
-
 }

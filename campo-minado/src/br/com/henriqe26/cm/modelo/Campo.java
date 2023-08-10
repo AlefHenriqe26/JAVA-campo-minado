@@ -96,8 +96,8 @@ public class Campo {
 	}
 	
 	boolean objetivoAlcancado() {
-		boolean desvendado = !minado && aberto;
-		boolean protegido = minado && marcado;
+		boolean desvendado = !minado && aberto; 
+		boolean protegido = minado && marcado; 
 		return desvendado || protegido;
 	}
 	
